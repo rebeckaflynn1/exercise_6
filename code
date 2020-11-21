@@ -1,0 +1,9 @@
+
+word = input('please enter word: ')
+token = str(word)
+test = token[::-1]
+
+if token == test: 
+  print('Your word is a palindrome')
+else: 
+  print('Your word is not a palindrom')
